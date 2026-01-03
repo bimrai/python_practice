@@ -15,6 +15,6 @@ for names in map(splicer, name_list):
 
 print("\n") # to create some space between for loop print and printing it out as a proper list
 
-list(map(splicer, name_list))
+# list(map(splicer, name_list))
 
-# or print(list(map(splicer, name_list)))
+print(list(map(splicer, name_list)))
